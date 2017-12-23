@@ -53,6 +53,12 @@ Sync with a server via HTTPS:
 $ sync-plex 10.0.1.2 https://server-domain
 ```
 
+### Docker
+
+```bash
+docker run barlock/sync-plex sync-plex -t $PLEX_TOKEN 10.0.1.5 https://some.hostname.io:80
+```
+
 ## Contributing
 
 Contributions are welcome.  Open a pull request or issue to contribute.
